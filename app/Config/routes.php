@@ -79,11 +79,6 @@
 	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
 
 /**
- * error page
- */
-	Router::connect('/oops', array('controller' => 'pages', 'action' => 'display', 'oops'));
-
-/**
  * Here, we are connecting '/' (base path) to controller called 'Pages',
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
