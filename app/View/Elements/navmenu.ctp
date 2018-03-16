@@ -21,7 +21,7 @@
                 </ul>
             </li>
         <?php else : ?>
-            <li class="<?php echo $this->Navmenu->active($menu['Menu']['link'])?>">
+            <li class="<?php echo $this->Menu->main($menu['Menu']['link'])?>">
                 <?= $this->Html->link($menu['Menu']['name'], $menu['Menu']['link']) ?>
             </li>
         <?php endif ?>
